@@ -4,7 +4,7 @@
 
 ## Project overview
 
-The `client` folder contains the React + Vite front-end for VersaAI. It provides the public user interface, routing, and UI components used to access AI features such as content generation, image processing, and productivity tools.
+The `frontend` folder contains the React + Vite front-end for VersaAI. It provides the public user interface, routing, and UI components used to access AI features such as content generation, image processing, and productivity tools.
 
 Key goals:
 - Provide a simple, responsive UI scaffold for AI tools
@@ -30,7 +30,7 @@ Key goals:
 1. Install dependencies
 
 	```powershell
-	cd client
+	cd frontend
 	npm install
 	```
 
