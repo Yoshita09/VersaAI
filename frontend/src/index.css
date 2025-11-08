@@ -8,3 +8,20 @@
 @theme {
   --color-primary: #5044E5;
 }
+
+/* Always show scrollbar for specific container */
+.always-scroll::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.always-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.25);
+  border-radius: 4px;
+}
+
+/* Important: ensures the track is always rendered */
+.always-scroll {
+  overflow-y: scroll !important;
+  scrollbar-gutter: stable; /* keeps space reserved for scrollbar */
+}

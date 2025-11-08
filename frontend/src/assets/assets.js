@@ -156,6 +156,7 @@ export const dummyPublishedCreationData = [
         "created_at": "2025-06-19T08:16:54.614Z",
         "updated_at": "2025-06-19T09:58:40.072Z",
     },
+    
     {
         "id": 3,
         "user_id": "user_2yaW5EHzeDfQbXdAJWYFnZo2bje",
