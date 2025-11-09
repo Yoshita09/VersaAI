@@ -49,7 +49,7 @@ const BlogTitles = () => {
           {blogCategories.map((item) => (
             <span
               onClick={() => setSelectedCategory(item)}
-              className={`text-xs px-4 py-1 border rounded-full ${
+              className={`text-xs px-4 py-1 border rounded-full cursor-pointer ${
                 selectedCategory === item
                   ? "bg-purple-50 text-purple-700"
                   : "text-gray-500 border-gray-300"
