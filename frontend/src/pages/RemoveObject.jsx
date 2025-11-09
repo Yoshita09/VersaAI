@@ -30,7 +30,7 @@ const RemoveObject = () => {
           onChange={(e) => setInput(e.target.files[0])}
           type="file"
           accept="image/*"
-          className="w-full p-2 px-3 mt-2 outline-none text-sm rounded-md border border-gray-300 text-gray-600"
+          className="w-full p-2 px-3 mt-2 outline-none text-sm rounded-md border border-gray-300 text-gray-600 cursor-pointer"
           required
         />
 
