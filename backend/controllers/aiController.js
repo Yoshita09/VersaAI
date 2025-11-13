@@ -4,7 +4,7 @@ import { clerkClient } from "@clerk/express";
 import axios from "axios";
 import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
-import pdf from "pdf-parse/lib/pdf-parse.js";
+import pdf from "pdf-parse-fixed";
 
 const AI = new OpenAI({
   apiKey: process.env.GEMINI_API_KEY,
