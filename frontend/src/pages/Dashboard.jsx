@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Gem, Sparkles } from "lucide-react";
 import { Protect, useAuth } from "@clerk/clerk-react";
-import { dummyCreationData } from '../assets/assets'
 import CreationItem from "../components/CreationItem";
 import axios from "axios";
 import toast from "react-hot-toast";
