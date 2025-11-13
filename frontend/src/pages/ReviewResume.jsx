@@ -1,11 +1,17 @@
 import { useState } from "react";
 import { FileText, Sparkles } from "lucide-react";
+import axios from "axios";
+import { useAuth } from "@clerk/clerk-react";
+
+axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
 
 
 const ReviewResume = () => {
   const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [content, setContent] = useState("");
 
-
+  const { getToken } = useAuth();
 
   const onSubmitHandler = async (e) => {
     e.preventDefault();
